@@ -1,0 +1,13 @@
+.jumbotron{
+    margin:0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #A9A9A9, #B8860B);
+}
+
+h1, h2, h3 {
+    font-family:cursive;
+}
+
+.navbar {
+    background-color: #b4ac4e;
+}

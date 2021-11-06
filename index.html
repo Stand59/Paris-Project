@@ -7,16 +7,44 @@
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
     <title>Paris: City of Dreams</title>
 </head>
 
 <body>
-    <header>
-        <div>
-            <h1>Alice Paris Tours</h1>
-            <h2>The Paris Experience on a Budget</h2>
+    <header class="jumbotron .jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-sm-2 col-md-1 align-self-center">
+                    <img class="img-fluid" width="120" height="200" src="img/logo.png" alt="Wonderland Paris Tours Logo">
+                </div>
+                <div class="col">
+                    <h1>Wonderland Paris Tours</h1>
+                    <h3>The Paris Experience on a Budget</h3>
+                </div>
+            </div>
         </div>
     </header>
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="43" width="30" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#parisProjectNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="parisProjectNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="navlink" href="#"><i class="fa fa-home fa-lg"></i>Home</a></li>
+                    <li class="nav-item"><a class="navlink" href="#"><i class="fa fa-info fa-lg"></i>About</a></li>
+                    <li class="nav-item"><a class="navlink" href="#"><i class="fa fa-address-card fa-lg"></i>Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <div>
         <h2>Christmas Tour</h2>
@@ -29,7 +57,7 @@
     </div>
 
     <div>
-        <h2>Hidden Jems of Paris</h2>
+        <h2>Hidden Gems of Paris</h2>
         <p>There are many lesser known places that will spice up any trip to paris. Things such as hidden bakeries, lds temple, and restaurants with great deals. </p>
     </div>
 </body>
